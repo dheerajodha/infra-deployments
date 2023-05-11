@@ -2,17 +2,22 @@
   {
     "op": "replace",
     "path": "/data/VAULTHOST",
-    "value": "https://vault-spi-vault.apps.myeighthcluster.lab.upshift.rdu2.redhat.com"
+    "value": "https://vault-spi-vault.apps.ci-ln-f6slgm2-72292.gcp-2.ci.openshift.org"
   },
   {
     "op": "replace",
     "path": "/data/BASEURL",
-    "value": "https://spi-oauth-spi-system.apps.myeighthcluster.lab.upshift.rdu2.redhat.com"
+    "value": "https://spi-oauth-spi-system.apps.ci-ln-f6slgm2-72292.gcp-2.ci.openshift.org"
   },
   {
     "op": "add",
     "path": "/data/SPIINSTANCEID",
     "value": "spi-dev"
+  },
+  {
+    "op": "add",
+    "path": "/data/VAULTINSECURETLS",
+    "value": "true"
   },
   {
     "op": "add",
